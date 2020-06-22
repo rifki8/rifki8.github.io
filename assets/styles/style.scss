@@ -1,0 +1,304 @@
+@import 'variables';
+
+html, body{
+  position: relative;
+  font-family: $font1;
+  background-color: $dark-grey;
+}
+
+nav{
+  background-color: $black;
+}
+
+.navbar-brand{
+  margin: 6px 0px;
+}
+
+.navbar-collapse{
+  margin-right: 28px;
+}
+
+.nav-item{
+  margin: 6px 30px;
+  font-family: $font2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#home{
+  background: $black;
+  // background-image: url("http://localhost/rifki8.github.io/assets/images/background3.jpg");
+  // background-size: cover;
+}
+
+.home-img img{
+  margin-top: 110px;
+}
+
+.home-text{
+  color: white;
+  font-family: $font1;
+}
+
+.home-text p{
+  font-size: $paragraph;
+}
+
+#typed, .typed-cursor{
+  font-size: $heading1;
+  font-weight: bold;
+}
+
+#typed span{
+  color: $red;
+}
+
+.email-btn a{
+  padding: 0.9rem;
+  color: $red;
+  font-size: $paragraph;
+  font-family: $font1;
+  font-weight: bold;
+  width: 10em;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  box-shadow: 15px 15px 80px rgba(255, 255, 255, 0.3);
+}
+
+.email-btn a:hover{
+  width: 12em;
+  background: white;
+  color: $red;
+  box-shadow: 15px 15px 70px rgba(255, 255, 255, 0.5);
+}
+
+.social-media i{
+  color: $grey;
+  font-size: $paragraph;
+  transition: all 0.5s;
+}
+
+.social-media i:hover{
+  filter: brightness(120%);
+  font-size: 22px;
+}
+
+#home-rectangle1{
+  position: absolute;
+  transform: translate(80px,-470px);
+  -ms-transform: translate(80px,-470px); /* IE 9 */
+  -webkit-transform: translate(80px,-470px); /* Safari and Chrome */
+  -o-transform: translate(80px,-470px); /* Opera */
+  -moz-transform: translate(80px,-470px); /* Firefox */
+}
+
+#home-rectangle2{
+  position: absolute;
+  transform: translate(1110px,-200px);
+  -ms-transform: translate(1110px,-200px); /* IE 9 */
+  -webkit-transform: translate(1110px,-200px); /* Safari and Chrome */
+  -o-transform: translate(1110px,-200px); /* Opera */
+  -moz-transform: translate(1110px,-200px); /* Firefox */
+}
+
+#home-rectangle3{
+  position: absolute;
+  transform: translate(80px,-80px);
+  -ms-transform: translate(80px,-80px); /* IE 9 */
+  -webkit-transform: translate(80px,-80px); /* Safari and Chrome */
+  -o-transform: translate(80px,-80px); /* Opera */
+  -moz-transform: translate(80px,-80px); /* Firefox */
+}
+
+#home-ellipse1{
+  position: absolute;
+  transform: translate(1020px, -390px);
+  -ms-transform: translate(1020px, -390px); /* IE 9 */
+  -webkit-transform: translate(1020px, -390px); /* Safari and Chrome */
+  -o-transform: translate(1020px, -390px); /* Opera */
+  -moz-transform: translate(1020px, -390px); /* Firefox */
+}
+
+#skills{
+  background: $dark-grey;
+}
+
+.heading-section{
+  color: white;
+  font-size: $heading1;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.skills-icon{
+  color: $red;
+  font-size: 5.5rem;
+}
+
+.skills-text{
+  color: white;
+}
+
+.skills-text h2{
+  font-size: $heading2;
+  font-weight: bold;
+}
+
+.skills-text p{
+  font-size: $paragraph;
+  margin: 0.3em 0;
+}
+
+#skills-rectangle1{
+  position: absolute;
+  transform: translate(1180px, -600px);
+  -ms-transform: translate(1180px, -600px); /* IE 9 */
+  -webkit-transform: translate(1180px, -600px); /* Safari and Chrome */
+  -o-transform: translate(1180px, -600px); /* Opera */
+  -moz-transform: translate(1180px, -600px); /* Firefox */
+}
+
+#skills-rectangle2{
+  position: absolute;
+  transform: translate(1157px, -545px);
+  -ms-transform: translate(1157px, -545px); /* IE 9 */
+  -webkit-transform: translate(1157px, -545px); /* Safari and Chrome */
+  -o-transform: translate(1157px, -545px); /* Opera */
+  -moz-transform: translate(1157px, -545px); /* Firefox */
+}
+
+#skills-rectangle3{
+  position: absolute;
+  transform: translate(1150px, -80px);
+  -ms-transform: translate(1150px, -80px); /* IE 9 */
+  -webkit-transform: translate(1150px, -80px); /* Safari and Chrome */
+  -o-transform: translate(1150px, -80px); /* Opera */
+  -moz-transform: translate(1150px, -80px); /* Firefox */
+}
+
+#skills-rectangle4{
+  position: absolute;
+  transform: translate(60px, -516px);
+  -ms-transform: translate(60px, -516px); /* IE 9 */
+  -webkit-transform: translate(60px, -516px); /* Safari and Chrome */
+  -o-transform: translate(60px, -516px); /* Opera */
+  -moz-transform: translate(60px, -516px); /* Firefox */
+}
+
+#skills-ellipse1{
+  position: absolute;
+  transform: translate(100px, -250px);
+  -ms-transform: translate(100px, -250px); /* IE 9 */
+  -webkit-transform: translate(100px, -250px); /* Safari and Chrome */
+  -o-transform: translate(100px, -250px); /* Opera */
+  -moz-transform: translate(100px, -250px); /* Firefox */
+}
+
+#skills-polygon1{
+  position: absolute;
+  transform: translate(620px, -275px);
+  -ms-transform: translate(620px, -275px); /* IE 9 */
+  -webkit-transform: translate(620px, -275px); /* Safari and Chrome */
+  -o-transform: translate(620px, -275px); /* Opera */
+  -moz-transform: translate(620px, -275px); /* Firefox */
+}
+
+#portfolio{
+  background: $dark-grey;
+  color: white;
+}
+
+.portfolio-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-text a{
+  font-size: $paragraph-sm;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-text a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.cool-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+#contact{
+  background: $red;
+  color: white;
+  padding: 5rem 0;
+}
+
+.contact-text h1{
+  font-size: $heading1;
+  font-weight: bold;
+}
+
+.contact-text p{
+  font-size: $paragraph;
+  font-weight: normal;
+}
+
+footer{
+  background: $dark-grey;
+  color: white;
+}
+
+.footer-text h2{
+  font-size: $heading2;
+  font-weight: bold;
+}
+
+.footer-text p{
+  font-size: $paragraph;
+  font-weight: normal;
+  color: $grey;
+}
+
+.footer-text a, .footer-text a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-icn i{
+  font-size: $heading2;
+  color: $grey;
+}
+
+.footer-icn i:hover{
+  color: white;
+}

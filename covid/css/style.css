@@ -1,0 +1,35 @@
+#map {
+  height: 70vh;
+}
+
+#listProv{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+
+#listProv li{
+  border-bottom: 1px solid #4f5962;;
+}
+
+hr{
+  border-bottom: 1px solid #4f5962;;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    background: white;
+    padding: 1em;
+    border-radius: 15px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
